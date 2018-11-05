@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Catalogue Movies</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="masukkan_nama_film">Search Movie</string>
+    <string name="nama_movie">name_movie</string>
+    <!--<string name="cari">SEARCH</string>-->
+    <string name="cari_sm">Search</string>
+    <string name="fav_sm">Favorit</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date of Release</string>
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="movie">Movie</string>
+    <string name="category">Category</string>
+    <string name="home_sm">Home</string>
+    <string name="sekarang_sm">Now Playing</string>
+    <string name="nanti_sm">Upcoming</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="email_adnan">adnan.bayuaji@gmail.com</string>
+    <string name="name_adnan">Adnan</string>
+
+    <string name="title_judul">The Title</string>
+    <string name="content_tanggal">Date of</string>
+    <string name="click_me_to_see_the_awesomeness">Click me to see the Awesomeness!</string>
+    <string name="hello_world">Hello World!</string>
+
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_overview">Movie Overview</string>
+    <string name="release_date">Release date</string>
+    <string name="fragment_upcoming">Fragment Upcoming</string>
+    <string name="long_overview">Overview-nya</string>
+
+    <string name="title_overview">Overview</string>
+    <string name="title_date_of_release">Date of Release:</string>
+    <string name="content_ratings">1000 Ratings (7.5/10)</string>
+    <string name="title_rating">Rating</string>
+
+
+    <string name="language">Change Language</string>
+
+    <string name="rating">RATING</string>
+
+    <string name="loading">Getting data...</string>
+
+    <string name="me">Adnan Bayu Aji</string>
+
+    <string name="search">Search</string>
+
+    <string name="search_hint">Input words</string>
+
+    <string name="available">Film already added to database</string>
+    <string name="cari">SEARCH</string>
+    <string name="poster_movie">Poster Movie</string>
+    <string name="detail">Detail</string>
+
+    <string name="toast">Successfully added to favorite!</string>
+    <string name="first_run">first_run</string>
+    <string name="delete">Remove Favorite</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">Empty Text</string>
+    <string name="catalogue_movies">Catalogue Movies</string>
+
+    <string name="judul_daily">Whats New?</string>
+    <string name="desk_daily">Check out latest movies!</string>
+    <string name="today_release">movie just released</string>
+    <string name="lang_title">Language</string>
+    <string name="summary_lang">Select Language</string>
+    <string name="lang">Language</string>
+    <string name="key_lang">key_lang</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="key_today_reminder">key_today_reminder</string>
+    <string name="summary_daily_reminder">You will reveiced daily reminder every 7 AM</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="summary_release_reminder">You will receive daily movie release info every 8 AM</string>
+    <string name="release_reminder">New Movie Reminder</string>
+    <string name="empty_content">Empty Content</string>
+
+</resources>

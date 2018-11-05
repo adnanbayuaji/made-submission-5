@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_playsekarang"
+            android:icon="@drawable/ic_menu_movie"
+            android:title="@string/sekarang_sm" />
+        <item
+            android:id="@+id/nav_playnanti"
+            android:icon="@drawable/ic_movie_filter"
+            android:title="@string/nanti_sm" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="@string/cari_sm" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_menu_fav"
+            android:title="@string/fav_sm" />
+    </group>
+
+</menu>

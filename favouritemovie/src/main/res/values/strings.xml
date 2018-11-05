@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Favourite Movie</string>
+    <string name="overview">Overview</string>
+    <string name="popularity">Popularity</string>
+    <string name="backdrop_movie">Backdrop Movie</string>
+    <string name="detail">Detail</string>
+    <string name="share">Share</string>
+    <string name="poster_movie">Poster Movie</string>
+    <string name="release_date">Release Date:</string>
+</resources>

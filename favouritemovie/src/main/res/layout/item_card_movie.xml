@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_poster"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="4dp"
+            tools:src="@color/colorAccent"
+            android:contentDescription="@string/poster_movie" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_toEndOf="@+id/img_poster"
+            android:layout_toRightOf="@+id/img_poster"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            tools:text="Title of Movie"
+            style="@style/MovieFont"/>
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_below="@+id/tv_title"
+            android:layout_toRightOf="@+id/img_poster"
+            android:layout_toEndOf="@+id/img_poster"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Short description about the movie"
+            android:layout_marginBottom="8dp"
+            style="@style/MovieFont"/>
+
+        <TextView
+            android:id="@+id/tv_release"
+            android:layout_below="@+id/tv_description"
+            android:layout_toRightOf="@id/img_poster"
+            android:layout_toEndOf="@id/img_poster"
+            tools:text="Wednesday, Nov 23, 2016"
+            style="@style/MovieFont"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/img_poster"
+            android:layout_toEndOf="@+id/img_poster"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="@string/share"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
